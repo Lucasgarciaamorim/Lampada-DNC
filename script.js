@@ -30,15 +30,16 @@ function desligarLamp() {
 
 lamp.addEventListener('click', quebrarLamp)
 function quebrarLamp() {
-    alert('Eu avisei!!!')
+
     lamp.src = '/assets/img/lampQuebrada.svg';
 
 }
 
 function reset() {
     lamp.src = '/assets/img/lampDesligada.svg';
-    alert('Não Toque na lâmpada');
-    alert('Tente de novo');
+    
+
+  
 }
 
 
